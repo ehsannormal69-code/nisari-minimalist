@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <!-- ===== NAVIGATION ===== -->
   <nav class="nav" id="nav">
     <div class="nav__inner container">
       <a href="#" class="nav__logo">Nisari</a>
@@ -23,6 +24,7 @@
     </div>
   </nav>
 
+  <!-- ===== HERO ===== -->
   <section class="hero" id="hero">
     <div class="hero__bg"></div>
     <div class="hero__content container">
@@ -40,15 +42,13 @@
     </div>
   </section>
 
+  <!-- ===== ABOUT ===== -->
   <section class="about" id="about">
     <div class="container">
       <div class="section-label">01 — About</div>
       <div class="about__grid">
         <div class="about__text">
-          <h2 class="section-title">A home built<br />on love &amp; togetherness</h2>
-          <p class="section-body">Nisari is more than a house — it is the gathering place for a family rooted in the rich coastal soil of Vadakara, Kerala. Here, laughter echoes through the halls, children's footsteps patter across the floors, and generations come together as one.</p>
-          <p class="section-body">Founded by Abdul Nasser and Subaida, this home has blossomed into a vibrant tapestry of children, grandchildren, and boundless love. Every corner holds a memory; every room tells a story.</p>
-          <p class="section-body">In the heart of Vadakara, amidst coconut groves and warm breezes, Nisari stands as a testament to family, faith, and the beauty of shared lives.</p>
+          <h2 class="section-title">Founded by<br />Subaida &amp; Abdul Nasser</h2>
         </div>
         <div class="about__image">
           <div class="about__image-inner">
@@ -63,54 +63,140 @@
 
   <div class="divider container"><hr /></div>
 
+  <!-- ===== FAMILY TREE ===== -->
   <section class="family" id="family">
     <div class="container">
       <div class="section-label">02 — Family Tree</div>
       <h2 class="section-title">The generations<br />of Nisari</h2>
-      <p class="section-body" style="margin-bottom: var(--space-2xl);">From grandparents to grandchildren, every branch of this tree is cherished.</p>
+      <p class="section-body" style="margin-bottom: var(--space-2xl);">
+        From grandparents to grandchildren, every branch of this tree is cherished.
+      </p>
     </div>
+
     <div class="family__tree container">
+      <!-- Grandparents -->
       <div class="tree__grandparents">
         <div class="tree__node tree__node--grandparent">
-          <div class="tree__card"><div class="tree__avatar tree__avatar--male">AN</div><div class="tree__name">Abdul Nasser</div><div class="tree__role">Grandfather</div></div>
-          <div class="tree__union"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="3" /><path d="M12 11v10M7 21h10" /></svg></div>
-          <div class="tree__card"><div class="tree__avatar tree__avatar--female">SA</div><div class="tree__name">Subaida</div><div class="tree__role">Grandmother</div></div>
+          <div class="tree__card">
+            <div class="tree__avatar tree__avatar--male">AN</div>
+            <div class="tree__name">Abdul Nasser</div>
+            <div class="tree__role">Grandfather</div>
+          </div>
+          <div class="tree__union">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <circle cx="12" cy="8" r="3" /><path d="M12 11v10M7 21h10" />
+            </svg>
+          </div>
+          <div class="tree__card">
+            <div class="tree__avatar tree__avatar--female">SA</div>
+            <div class="tree__name">Subaida</div>
+            <div class="tree__role">Grandmother</div>
+          </div>
         </div>
       </div>
+
       <div class="tree__trunk"><div class="tree__trunk-line"></div></div>
+
+      <!-- Children row -->
       <div class="tree__children">
+        <!-- Hiba & family -->
         <div class="tree__branch">
-          <div class="tree__node tree__node--parent"><div class="tree__card tree__card--parent"><div class="tree__avatar tree__avatar--female">HB</div><div class="tree__name">Hiba</div><div class="tree__role">Eldest child</div></div></div>
+          <div class="tree__node tree__node--parent">
+            <div class="tree__card tree__card--parent">
+              <div class="tree__avatar tree__avatar--female">HB</div>
+              <div class="tree__name">Hiba</div>
+              <div class="tree__role">Eldest child</div>
+            </div>
+          </div>
           <div class="tree__branch-children">
-            <div class="tree__node tree__node--child"><div class="tree__card tree__card--child"><div class="tree__avatar tree__avatar--female-sm">MN</div><div class="tree__name">Minha</div><div class="tree__role">Eldest child of Hiba</div></div></div>
-            <div class="tree__node tree__node--child"><div class="tree__card tree__card--child"><div class="tree__avatar tree__avatar--female-sm">TT</div><div class="tree__name">Tutu</div><div class="tree__role">Youngest child of Hiba</div></div></div>
+            <div class="tree__node tree__node--child">
+              <div class="tree__card tree__card--child">
+                <div class="tree__avatar tree__avatar--female-sm">MN</div>
+                <div class="tree__name">Minha</div>
+                <div class="tree__role">Eldest child of Hiba</div>
+              </div>
+            </div>
+            <div class="tree__node tree__node--child">
+              <div class="tree__card tree__card--child">
+                <div class="tree__avatar tree__avatar--female-sm">TT</div>
+                <div class="tree__name">Tutu</div>
+                <div class="tree__role">Youngest child of Hiba</div>
+              </div>
+            </div>
           </div>
         </div>
+
+        <!-- Wafa & family -->
         <div class="tree__branch">
-          <div class="tree__node tree__node--parent"><div class="tree__card tree__card--parent"><div class="tree__avatar tree__avatar--female">WF</div><div class="tree__name">Wafa</div><div class="tree__role">Daughter</div></div></div>
+          <div class="tree__node tree__node--parent">
+            <div class="tree__card tree__card--parent">
+              <div class="tree__avatar tree__avatar--female">WF</div>
+              <div class="tree__name">Wafa</div>
+              <div class="tree__role">Daughter</div>
+            </div>
+          </div>
           <div class="tree__branch-children">
-            <div class="tree__node tree__node--child"><div class="tree__card tree__card--child"><div class="tree__avatar tree__avatar--female-sm">MH</div><div class="tree__name">Mehr</div><div class="tree__role">Eldest child of Wafa</div></div></div>
-            <div class="tree__node tree__node--child"><div class="tree__card tree__card--child"><div class="tree__avatar tree__avatar--male-sm">EH</div><div class="tree__name">Ehsan</div><div class="tree__role">Middle child of Wafa</div></div></div>
-            <div class="tree__node tree__node--child"><div class="tree__card tree__card--child"><div class="tree__avatar tree__avatar--female-sm">DU</div><div class="tree__name">Duaa</div><div class="tree__role">Youngest child of Wafa</div></div></div>
+            <div class="tree__node tree__node--child">
+              <div class="tree__card tree__card--child">
+                <div class="tree__avatar tree__avatar--female-sm">MH</div>
+                <div class="tree__name">Mehr</div>
+                <div class="tree__role">Eldest child of Wafa</div>
+              </div>
+            </div>
+            <div class="tree__node tree__node--child">
+              <div class="tree__card tree__card--child">
+                <div class="tree__avatar tree__avatar--male-sm">EH</div>
+                <div class="tree__name">Ehsan</div>
+                <div class="tree__role">Middle child of Wafa</div>
+              </div>
+            </div>
+            <div class="tree__node tree__node--child">
+              <div class="tree__card tree__card--child">
+                <div class="tree__avatar tree__avatar--female-sm">DU</div>
+                <div class="tree__name">Duaa</div>
+                <div class="tree__role">Youngest child of Wafa</div>
+              </div>
+            </div>
           </div>
         </div>
+
+        <!-- Rafah (no kids) -->
         <div class="tree__branch">
-          <div class="tree__node tree__node--parent"><div class="tree__card tree__card--parent"><div class="tree__avatar tree__avatar--female">RF</div><div class="tree__name">Rafah</div><div class="tree__role">Daughter</div></div></div>
-          <div class="tree__branch-children tree__branch-children--empty"><span class="tree__empty">Blessed in other ways</span></div>
+          <div class="tree__node tree__node--parent">
+            <div class="tree__card tree__card--parent">
+              <div class="tree__avatar tree__avatar--female">RF</div>
+              <div class="tree__name">Rafah</div>
+              <div class="tree__role">Daughter</div>
+            </div>
+          </div>
+          <div class="tree__branch-children tree__branch-children--empty"></div>
         </div>
+
+        <!-- Labeeb (no kids) -->
         <div class="tree__branch">
-          <div class="tree__node tree__node--parent"><div class="tree__card tree__card--parent"><div class="tree__avatar tree__avatar--male">LB</div><div class="tree__name">Labeeb</div><div class="tree__role">Son</div></div></div>
-          <div class="tree__branch-children tree__branch-children--empty"><span class="tree__empty">Blessed in other ways</span></div>
+          <div class="tree__node tree__node--parent">
+            <div class="tree__card tree__card--parent">
+              <div class="tree__avatar tree__avatar--male">LB</div>
+              <div class="tree__name">Labeeb</div>
+              <div class="tree__role">Son</div>
+            </div>
+          </div>
+          <div class="tree__branch-children tree__branch-children--empty"></div>
         </div>
       </div>
     </div>
+
     <div class="container">
-      <div class="family__blessing"><span class="family__blessing-icon">𑁍</span><p>"A family united by love is a fortress that no force can break."</p></div>
+      <div class="family__blessing">
+        <span class="family__blessing-icon">𑁍</span>
+        <p>"A family united by love is a fortress that no force can break."</p>
+      </div>
     </div>
   </section>
 
   <div class="divider container"><hr /></div>
 
+  <!-- ===== ROOTS ===== -->
   <section class="roots" id="roots">
     <div class="container">
       <div class="section-label">03 — Roots</div>
@@ -118,13 +204,26 @@
         <div class="roots__text">
           <h2 class="section-title">Vadakara —<br />where it all began</h2>
           <div class="roots__details">
-            <div class="roots__detail"><span class="roots__label">Location</span><span class="roots__value">Vadakara, Kozhikode, Kerala</span></div>
-            <div class="roots__detail"><span class="roots__label">Land</span><span class="roots__value">Family ancestral property</span></div>
-            <div class="roots__detail"><span class="roots__label">Heritage</span><span class="roots__value">Malabari traditions &amp; values</span></div>
+            <div class="roots__detail">
+              <span class="roots__label">Location</span>
+              <span class="roots__value">Vadakara, Kozhikode, Kerala</span>
+            </div>
+            <div class="roots__detail">
+              <span class="roots__label">Land</span>
+              <span class="roots__value">Family ancestral property</span>
+            </div>
+            <div class="roots__detail">
+              <span class="roots__label">Heritage</span>
+              <span class="roots__value">Malabari traditions &amp; values</span>
+            </div>
           </div>
         </div>
         <div class="roots__visual">
-          <div class="roots__map"><div class="roots__map-dot"></div><div class="roots__map-pulse"></div><div class="roots__map-label">Kerala</div></div>
+          <div class="roots__map">
+            <div class="roots__map-dot"></div>
+            <div class="roots__map-pulse"></div>
+            <div class="roots__map-label">Kerala</div>
+          </div>
         </div>
       </div>
     </div>
@@ -132,23 +231,45 @@
 
   <div class="divider container"><hr /></div>
 
+  <!-- ===== CONTACT ===== -->
   <section class="contact" id="contact">
     <div class="container">
       <div class="section-label">04 — Contact</div>
       <div class="contact__grid">
         <div class="contact__text">
           <h2 class="section-title">Reach out<br />to the family</h2>
-          <p class="section-body">Whether you are family near or far, or simply wish to know more about Nisari and its legacy, we would love to hear from you.</p>
+          <p class="section-body">
+            Whether you are family near or far, or simply wish to know more about
+            Nisari and its legacy, we would love to hear from you.
+          </p>
           <div class="contact__details">
-            <div class="contact__row"><span class="contact__label">Home</span><span class="contact__value">Nisari, Vadakara, Kerala</span></div>
-            <div class="contact__row"><span class="contact__label">Email</span><a href="mailto:ehsannormal69@gmail.com" class="contact__value">ehsannormal69@gmail.com</a></div>
-            <div class="contact__row"><span class="contact__label">Phone</span><span class="contact__value">+974 5517 1837</span></div>
+            <div class="contact__row">
+              <span class="contact__label">Home</span>
+              <span class="contact__value">Nisari, Vadakara, Kerala</span>
+            </div>
+            <div class="contact__row">
+              <span class="contact__label">Email</span>
+              <a href="mailto:ehsannormal69@gmail.com" class="contact__value">ehsannormal69@gmail.com</a>
+            </div>
+            <div class="contact__row">
+              <span class="contact__label">Phone</span>
+              <span class="contact__value">+974 5517 1837</span>
+            </div>
           </div>
         </div>
         <form class="contact__form" id="contactForm">
-          <div class="form__group"><label for="name" class="form__label">Name</label><input type="text" id="name" class="form__input" placeholder="Your name" required /></div>
-          <div class="form__group"><label for="email" class="form__label">Email</label><input type="email" id="email" class="form__input" placeholder="Your email" required /></div>
-          <div class="form__group"><label for="message" class="form__label">Message</label><textarea id="message" class="form__input form__textarea" placeholder="Share a memory, a greeting, or a thought…" rows="4" required></textarea></div>
+          <div class="form__group">
+            <label for="name" class="form__label">Name</label>
+            <input type="text" id="name" class="form__input" placeholder="Your name" required />
+          </div>
+          <div class="form__group">
+            <label for="email" class="form__label">Email</label>
+            <input type="email" id="email" class="form__input" placeholder="Your email" required />
+          </div>
+          <div class="form__group">
+            <label for="message" class="form__label">Message</label>
+            <textarea id="message" class="form__input form__textarea" placeholder="Share a memory, a greeting, or a thought…" rows="4" required></textarea>
+          </div>
           <button type="submit" class="btn btn--primary">Send message →</button>
           <p class="form__footnote">We will respond within 24 hours.</p>
         </form>
@@ -156,16 +277,35 @@
     </div>
   </section>
 
+  <!-- ===== FOOTER ===== -->
   <footer class="footer">
     <div class="container footer__inner">
-      <div class="footer__brand"><span class="footer__logo">Nisari</span><p class="footer__tagline">Rooted in Vadakara. Woven in love.</p></div>
-      <div class="footer__links">
-        <div class="footer__col"><span class="footer__col-title">Navigation</span><a href="#about">About</a><a href="#family">Family</a><a href="#roots">Roots</a><a href="#contact">Contact</a></div>
-        <div class="footer__col"><span class="footer__col-title">Family</span><a href="#family">Family Tree</a><a href="#roots">Vadakara</a><a href="#contact">Get in touch</a></div>
+      <div class="footer__brand">
+        <span class="footer__logo">Nisari</span>
+        <p class="footer__tagline">Rooted in Vadakara. Woven in love.</p>
       </div>
-      <div class="footer__bottom"><span>&copy; 2026 Nisari. All rights reserved.</span><span>Built with love, in Kerala.</span></div>
+      <div class="footer__links">
+        <div class="footer__col">
+          <span class="footer__col-title">Navigation</span>
+          <a href="#about">About</a>
+          <a href="#family">Family</a>
+          <a href="#roots">Roots</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer__col">
+          <span class="footer__col-title">Family</span>
+          <a href="#family">Family Tree</a>
+          <a href="#roots">Vadakara</a>
+          <a href="#contact">Get in touch</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; 2026 Nisari. All rights reserved.</span>
+        <span>Built with love, in Kerala.</span>
+      </div>
     </div>
   </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
